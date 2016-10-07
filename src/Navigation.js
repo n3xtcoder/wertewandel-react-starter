@@ -18,7 +18,7 @@ BackAndroid.addEventListener('hardwareBackPress', () => {
   }
 );
 
-class Root extends Component {
+class Navigation extends Component {
   constructor(props) {
     super(props);
     this.navigate = this.navigate.bind(this);
@@ -41,4 +41,4 @@ class Root extends Component {
   }
 }
 
-export default Root;
+export default Navigation;

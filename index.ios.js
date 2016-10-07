@@ -1,5 +1,5 @@
 import { AppRegistry } from 'react-native';
 
-import Root from './src/Root';
+import Navigation from './src/Navigation';
 
-AppRegistry.registerComponent('WerteWandelN3xtcoder', () => Root);
+AppRegistry.registerComponent('WerteWandelN3xtcoder', () => Navigation);
