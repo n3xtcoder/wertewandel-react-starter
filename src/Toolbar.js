@@ -46,10 +46,6 @@ class Toolbar extends Component {
     hasBackButton: true,
   };
 
-  constructor(props) {
-    super(props);
-  }
-
   render() {
     return (
       <View style={styles.container}>

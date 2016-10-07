@@ -24,7 +24,7 @@ class Navigation extends Component {
     this.navigate = this.navigate.bind(this);
   }
 
-  navigate(route, navigator) {
+  navigate = (route, navigator) => {
     _navigator = navigator;
     const config = {
       navigator,

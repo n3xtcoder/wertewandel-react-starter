@@ -37,12 +37,7 @@ class ScreenWrapper extends Component {
     toolbarTitle: '',
   };
 
-  constructor(props) {
-    super(props);
-    this.onIconClicked = this.onIconClicked.bind(this);
-  }
-
-  onIconClicked() {
+  onIconClicked = () => {
     if (this.props.navigator && this.props.navigator.getCurrentRoutes().length === 1) {
       return false;
     }
